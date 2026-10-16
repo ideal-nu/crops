@@ -1,0 +1,64 @@
+[tool.poetry]
+name        = "crops"
+version     = "0.0.1"
+description = "TO of Cosserat Rods for Programmable Slender Structures"
+authors     = [
+  "Aaditya Chandrasekhar <cs.aaditya@gmail.com>",
+]
+packages    = [ { include = "crops" } ]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+# Core Math & Physics
+jax     = ">=0.6.0"
+jaxlib  = ">=0.6.0"
+numpy   = ">=2.4.0"       
+scipy   = ">=1.11"
+chex    = ">=0.1.8"
+scikit-fmm = "*"
+jax-dataclasses = "*"
+interpax = "*"
+
+# Geometry & Meshing
+shapely = ">=2.0"
+matplotlib = ">=3.8"
+trimesh = "*"
+polyscope = "*"
+pymeshlab = "*"
+
+# Solvers
+pyamg   = ">=5.0.0"
+# pypardiso = "*"
+# petsc4py = "*"
+# scikits.umfpack = "*"
+
+# Utilities & Visualization
+imageio = "^2.30"
+pandas  = "*"
+PyYAML  = "*"
+pysdf = "*"
+scikit-image = "*"
+absl-py = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.4.0"
+ruff       = "^0.5.5"
+pytest     = "^8.1"
+ipython    = "*"
+ipykernel  = ">=6.29.5"
+
+[tool.ruff]
+line-length = 88
+indent-width = 2
+extend-include = ["*.ipynb"]
+
+[tool.ruff.lint]
+# F401: Unused imports (often expected in __init__.py)
+per-file-ignores = { "__init__.py" = ["F401"] }
+select = ["E", "F", "I"] # E=Error, F=Pyflakes, I=Isort (Organize imports)
+
+[build-system]
+requires    = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
