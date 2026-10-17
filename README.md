@@ -1,5 +1,3 @@
-![plot](./assets/crops.bmp)
-
 <h1 align="center">
     <a href="https://arxiv.org/abs/2605.19888">CROPS: Cosserat-Rod-Based Co-Design of Soft Slender Programmable Material Systems for Biomedical Applications</a>
 </h1>
