@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="https://arxiv.org/abs/2605.19888">CROPS: Cosserat-Rod-Based Co-Design of Soft Slender Programmable Material Systems for Biomedical Applications</a>
+    <a href="https://arxiv.org/abs/2610.24209">CROPS: Cosserat-Rod-Based Co-Design of Soft Slender Programmable Material Systems for Biomedical Applications</a>
 </h1>
 
 <p align="center">
@@ -12,21 +12,19 @@
 
 ## Abstract
 
-Programmable slender structures that deform in response to external stimuli represent a class of emerging material systems, with applications in soft robotics, minimally invasive surgery, wearable electronics, and deployable structures. In biomedical applications, the on-demand design of slender structures, encompassing both their material layout and actuation, is instrumental in leveraging their large deformation and multiphysics actuation for meeting patient-specific design requirements. However, owing to geometric and material nonlinearities, their structure-actuation-response relationship is highly non-intuitive and entails resource-intensive computation. This renders trial-and-error and conventional design approaches largely intractable for addressing patient-specific needs. To this end, we present a Cosserat-rod-based design optimization framework for the autonomous design of programmable slender structures. Capitalizing on the Cosserat rod representation, the end-to-end differentiable framework is demonstrated on two case studies: (i) design of swellable stents that morph to the shape of carotid vessels; (ii) co-design of the remnant magnetization and the applied field of magnetically-active catheters to reduce the force exerted on the patient-specific vessel wall during insertion. As the actuation types, the swelling of gel-elastomer composites and the magnetic actuation of hard-magnetic composites are considered. Additionally, the contact of the rod with itself and its surroundings is accounted for. The proposed framework presents an autonomous design platform for material-structure-actuation co-design of soft slender material systems that support large deformation and multiphysics actuation, with contact addressed.
+Slender structures made of stimuli-responsive materials represent an emerging class of programmable material systems, with applications in soft robotics, minimally invasive surgery, wearable electronics, and deployable structures. In biomedical applications, the on-demand design of slender structures, encompassing both their material layout and actuation, is essential to harnessing their large deformation and multiphysics actuation to meet patient-specific design requirements. However, owing to geometric and material nonlinearities, their structure-actuation-response relationship is highly nonintuitive and computationally demanding. This often makes trial-and-error and conventional design approaches challenging for addressing patient-specific needs. To this end, we present a Cosserat-rod-based design optimization framework for the autonomous design of programmable slender structures. Leveraging the Cosserat rod representation, the end-to-end differentiable framework is demonstrated on two case studies: (i) design of swellable stents that morph to the shape of carotid vessels; (ii) co-design of the remnant magnetization and the applied field of magnetically-active catheters to reduce the force exerted on the patient-specific vessel wall during insertion. Both self-contact and external contact with surrounding structures are accounted for. We consider two actuation mechanism, namely the swelling of gel-elastomer composites and the magnetic actuation of hard-magnetic composites. The proposed framework presents an autonomous design platform of soft slender material systems that support large deformations and multiphysics actuation toward personalized biomedical design.
 
 ## Citation
 
 ```
-
-@article{chandra2026crops,
-  title={{CROPS}: Cosserat-Rod-Based Co-Design of Soft Slender Programmable Material Systems for Biomedical Applications},
-  author={Aaditya Chandrasekhar and Dex Doksoo Lee and Hyunwoo Kwon and Shicheng Li and Wei Chen},
-  archivePrefix={arXiv},
-  eprint={2610.xxxx},
-  pages={1--23},
-  year={2026},
-  primaryClass={cs.CE},
-  url={https://arxiv.org/abs/2610.xxxxx}, 
+@article{chandrasekhar2026crops,
+author = {Chandrasekhar, Aaditya and Lee, Dex Doksoo and Kwon, Hyunwoo and Li, Shicheng and Chen, Wei},
+title = {{CROPS}: Cosserat-Rod-Based Co-Design of Soft Slender Programmable Material Systems for Biomedical Applications},
+journal = {arXiv preprint (cs.CE)},
+year = {2026},
+url = {https://arxiv.org/abs/2610.24209v1},
+eprint = {2610.24209v1},
+eprinttype = {arxiv}
 }
 ```
 
